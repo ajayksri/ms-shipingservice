@@ -25,7 +25,7 @@ build:
   - image: shippingservice
     context: src/shippingservice
   tagPolicy:
-    gitCommit: {}
+    sha256: {}
   local:
     useBuildkit: false
 manifests:
